@@ -4,13 +4,8 @@ import Search from '../Search/Search';
 import SearchResults from '../SearchResults/SearchResults';
 import PwovebBox from '../PwovebBox/PwovebBox';
 import Pwoveb from '../../data.js'
-import Button from '../Button/Button';
 import './App.css';
-import randomColor from "randomcolor";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons'
-library.add(fab);
+
 
 class RandomPwoveb extends React.Component{
   constructor(props){
