@@ -1,0 +1,39 @@
+
+
+.form{
+    background:white;
+    padding: 1rem 1rem 1rem 1rem;
+    border:none;
+    font-size: 2rem;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    border-radius: 40px;
+    max-width: 100%;
+    margin:0 auto;
+    position: relative;
+}
+
+#search-input{
+  border:none;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-left:1rem;
+  text-align: center;
+}
+
+ input:focus{
+    outline: none;
+}
+
+
+.errspan {
+        position: absolute;
+        top:2rem;
+        left:1rem;
+        z-index: 2;
+        opacity: 0.7;
+    }
+
+    .fa-search{
+      font-size: 2.3rem
+    }
+
+

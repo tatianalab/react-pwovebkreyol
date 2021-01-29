@@ -1,0 +1,33 @@
+#new-quote {
+  font-family:'Montserrat Alternates', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  border-radius: 50em;
+  box-shadow: 0px 0px 3px .5px rgba(82, 81, 81,0.7);
+  border: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition:0.3s ease;
+}
+
+
+
+#new-quote:focus {
+  outline: none;
+  border: none;
+}
+
+#new-quote:hover {
+  outline: none;
+  border: none;
+  transform:scale(1.1);
+}
+
+#new-quote:active{
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.2s ease 0s;
+}

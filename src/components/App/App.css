@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Montserrat+Alternates:wght@400;500&family=Satisfy&display=swap');
+
+body {
+  font-family:'Montserrat Alternates', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Kalam', cursive;
+}
+
+#root {
+  height: auto;
+  display: flex;
+}
+
+.container{
+  margin:0 auto;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pawolBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:10rem;
+}
+
+.title {
+  text-align: center;
+  font-weight: 500;
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+.footer{
+  position:fixed;
+    right:1.5rem;
+    bottom:1.5rem;
+    z-index:1;
+
+}
+
+.footer a{
+  text-decoration:none;
+  font-family: 'Satisfy', cursive;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 450px) {
+  .title {
+    font-size: 22px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
