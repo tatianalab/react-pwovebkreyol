@@ -1,9 +1,5 @@
 import React from 'react';
 import './Search.css'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { library } from '@fortawesome/fontawesome-svg-core';
-// import { fab } from '@fortawesome/free-brands-svg-icons'
-// library.add(fab);
 
 class Search extends React.Component {
 

@@ -22,13 +22,12 @@
 .buttons {
   display: flex;
   justify-content: space-between;
+
 }
 
-
-.react-share_ShareButton{
-  margin-right:10px;
+.buttons :focus{
+    outline: none;
 }
-
 
 @media only screen and (max-width: 450px) {
 
